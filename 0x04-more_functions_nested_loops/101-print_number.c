@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -6,23 +7,21 @@
  */
 void print_number(int n)
 {
-	unsigned int m;
+	unsigned int n1;
 
-	if (m < 0)
+	if (n < 0)
 	{
-		m = -n;
+		n1 = -n;
 		_putchar('-');
-	}
-	else if (m / 10)
+	} else
 	{
-		print_number(m / 10);
+		n1 = n;
 	}
-	else
+
+	if (n1 / 10)
 	{
-		m = n;
+		print_number(n1 / 10);
 	}
-	_putchar((m % 10) + '0');
+
+	_putchar((n1 % 10) + '0');
 }
-
-
-
