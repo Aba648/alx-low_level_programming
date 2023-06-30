@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - the main function
+ * Return: void
+ */
 int main(void)
 {
 	int n;
@@ -10,7 +13,7 @@ int main(void)
 	p = &n;
 	/*
 	 * write your line of code here...
-	 * Remember:
+	 * Remembe:
 	 * - you are not allowed to use a
 	 * - you are not allowed to modify p
 	 * - only one statement
@@ -21,3 +24,4 @@ int main(void)
 	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
+
