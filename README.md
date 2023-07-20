@@ -1,1 +1,1 @@
-C - More functions, more nested loops
+The prototypes of all your functions
